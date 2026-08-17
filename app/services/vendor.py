@@ -18,5 +18,5 @@ def get_vendor(mac: str):
     try:
         return mac_lookup.lookup(mac)
 
-    except Exception:
+git checkout --ours README.md    except Exception:
         return "Unknown"
